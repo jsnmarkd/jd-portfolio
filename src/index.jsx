@@ -10,11 +10,12 @@ const root = ReactDOM.createRoot(document.querySelector("#root"));
 root.render(
   <>
     <Canvas
+      className="canvas"
       camera={{
-        fov: 45,
+        fov: 50,
         near: 0.1,
         far: 2000,
-        position: [-3, 1.5, 4],
+        position: [0, 1, 4],
       }}
     >
       <Suspense fallback={null}>

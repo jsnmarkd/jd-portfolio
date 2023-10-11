@@ -52,10 +52,10 @@ export default function Experience() {
           {/* Text */}
           <Text
             font="./bangers-v20-latin-regular.woff"
-            fontSize={1}
-            position={[3, 0.75, 0.75]}
-            rotation-y={-1.25}
-            maxWidth={2}
+            fontSize={0.35}
+            position={[1.75, 0.75, 0.75]}
+            rotation-y={-1}
+            maxWidth={1}
             textAlign="center"
           >
             JASON DIVINAGRACIA
