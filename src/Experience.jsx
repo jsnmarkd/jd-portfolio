@@ -31,7 +31,7 @@ export default function Experience() {
             width={2.5}
             height={1.65}
             intensity={65}
-            color={"#ff6900"}
+            color={"#FFD935"}
             rotation={[-0.1, Math.PI, 0]}
             position={[0, 0.55, -1.15]}
           />
@@ -45,7 +45,7 @@ export default function Experience() {
               position={[0, 1.56, -1.4]}
               rotation-x={-0.256}
             >
-              <iframe src="https://bruno-simon.com" />
+              <iframe src="http://10.0.0.75:3000" />
             </Html>
           </primitive>
 
@@ -57,6 +57,7 @@ export default function Experience() {
             rotation-y={-1}
             maxWidth={1}
             textAlign="center"
+            color={"#FFD935"}
           >
             JASON DIVINAGRACIA
           </Text>
